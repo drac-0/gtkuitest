@@ -1,9 +1,9 @@
 [
   {
-    "file": "button.c",
+    "file": "keyboardlay.c",
     "arguments": [
       "gcc",
-      "button.c",
+      "keyboardlay.c",
       "-I/usr/include/gtk-4.0",
       "-I/usr/include/pango-1.0",
       "-I/usr/include/fribidi",
@@ -25,6 +25,7 @@
       "-I/usr/include/blkid",
       "-I/usr/include/sysprof-6",
       "-pthread",
+      "-Wall",
       "-o",
       "test"
     ],
