@@ -1,0 +1,2 @@
+bear -- gcc main.c $(pkg-config --cflags --libs gtk4) -o test
+
